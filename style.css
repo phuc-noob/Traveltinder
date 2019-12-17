@@ -1,0 +1,187 @@
+body {
+  color: #2f2f2f;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300; 
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10px;
+    display: inline-block;
+  }
+
+#left {
+    width: 380px;
+    margin-left: 300px;
+    background-color: rgba(255, 183, 0, .8);
+    border-radius: 5px;
+    z-index: 11px;
+}
+
+.close {
+    font-size: 16px;
+    font-weight: 100px;
+    color: #D3D3D3;
+    float: right;
+    border: none;
+    margin-right: 5px;
+    background-color: #fff;
+    outline: none;
+  } 
+
+  .TravelTinder {
+    color: #3b5998;
+    font-family: 'Satisfy';
+    font-size: 65px;
+    margin-top: 200px;
+    padding: 25px
+} 
+
+a {
+        color: #2f2f2f;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+     
+.login-text {
+        width: 250px;
+        margin: 25px 25px 45px 25px;
+        font-family: 'Roboto', sans-serif;
+        
+      }
+.flat-button {
+        color: #eaeaea;
+        text-transform: uppercase;
+        font-weight: 100px;
+        font-size: 13px;
+        border: none;
+        cursor: pointer; 
+      }
+      
+.facebook {
+        background: url('https://www.dropbox.com/s/094vovcb4h8qznn/facebook-logo.png'), #3b5998;
+        background-size: 20px 20px, cover;
+        background-position: 10px center, center center;
+        background-repeat: no-repeat;
+        margin: 55px 100px 90px 25px;
+        padding: 40px 30px 15px 45px;
+       
+      }
+      
+.brand {
+        margin-left: 25px;
+      
+      }
+.brand.facebook {
+    cursor: pointer;
+    background: #3b5998;
+    width: 80%;
+    
+}
+      
+.form-position {
+        width: 400px;
+        height: 500px;
+        background-color: #fff;
+        margin-left: -50px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        z-index: 12px;
+        height: 480px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -180px;
+
+      }
+
+.form-inner {
+    padding: 30px;
+    
+}
+.form-position.form-content {
+    display: none;
+}
+.form-content.current {
+    display: inherit;
+}
+
+
+.field {
+        width: 295px;
+        margin-top: 15px;
+        padding: 12px 15px 12px 30px;
+        font-size: 14px;
+        font-weight: 100px;
+        line-height: 22px;
+        border: 1px solid #d8d8d8;
+      }
+.tabs {
+        width: 340px;
+        margin-top: 25px;
+      }
+ul.tabs {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        border-bottom: solid 1px #d8d8d8;
+      }
+      
+ul.tabs li {
+        display: inline-block;
+        width: 138px;
+        padding: 15px;
+        text-align: center;
+        cursor: pointer;
+      }
+      
+ul.tabs li.current {
+        font-weight: 500px;
+        box-shadow: inset 0 -3px 0 0 rgba(50, 117, 193, 1);
+        -webkit-box-shadow: inset 0 -3px 0 0 rgba(50, 117, 193, 1);
+        -moz-box-shadow: inset 0 -3px 0 0 rgba(50, 117, 193, 1);
+      }
+.clear {
+    height: 15px;
+}
+
+#remember-me {
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+}
+
+    
+input {
+    margin-top: 40px;
+    display: block;
+    border: 1px solid #d9d9d9;
+    margin: 0 0 20px;
+    padding: 10px 15px;
+   
+
+}
+.login, .signup {
+    background-color: rgb(255, 183, 0);
+    padding: 15px;
+    width: 100%;
+    color: #fff;
+    margin-top: 25px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+.lost {
+    color:  rgb(255, 183, 0);
+    margin-left: 25px;
+    float: right;
+
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>TravelTinder</title>
+    <script src="https://kit.fontawesome.com/fa66a0c870.js" crossorigin="anonymous"></script>
+</head>
+<body>  
+    <div class="overlay">
+        <div id="left">
+            <div class="TravelTinder">TravelTinder</div>
+            <div class="brand login-text">Sign in with your email or username <br>
+            <br>
+            <strong>OR</strong><br><br>Use Facebook secure login for quick access to your account.
+            </div>   
+            <button class="brand login flat-button facebook">Continue with Facebook</button>
+
+            <!-- Tabs-->
+            <div class="form-position">
+                        <a href="#"><button class="close">x</button></a>
+                    <div class="form-inner">
+        
+                    <div class="tabs">
+                        <ul class="tabs">
+                            <li class="current" data-tab="member">
+                            <a href="#member">SIGN IN</a>
+                            </li>
+                            <li data-tab="new">
+                            <a href="#new">SIGN UP</a>
+                            </li>
+                        </ul>
+            <!--Login Form -->
+
+                    <div class="form-content">
+                        <form>
+                        <label for=""></label> <br> <br>
+                        <input type="email" name="login-id" id="user" placeholder="USERNAME / EMAIL" class="field" required>
+                        <label for=""></label>
+                        <input type="password" name="usrpw" placeholder="PASSWORD" class="field" required>
+                        <div class="clear"></div>
+                        <input id="remember-me" type="checkbox">
+                        <span>Remember me</span> 
+                        <span class="lost"><a href="#">Lost Your Password?</a></span>
+                        <button class="login">LOG IN</button>
+                        </form>
+                    </div>
+                    </div>
+                    </div>
+            </div>
+        
+   </div>            
+  <script src="./TravelTinder.js"></script>
+</body>
+</html>
